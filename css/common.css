@@ -1,0 +1,57 @@
+*{margin: 0; padding: 0; box-sizing: border-box; color: inherit; }
+@font-face {
+    font-family: "Noto";
+    src: url(../font/noto/NotoSansCJKkr-Thin.otf);
+    font-weight: 100;
+}
+@font-face {
+   font-family: "Noto";
+   src: url(../font/noto/NotoSansCJKkr-Light.otf);
+   font-weight: 300;
+}
+@font-face {
+   font-family: "Noto";
+   src: url(../font/noto/NotoSansCJKkr-Regular.otf);
+   font-weight: 400;
+}
+@font-face {
+   font-family: "Noto";
+   src: url(../font/noto/NotoSansCJKkr-Medium.otf);
+   font-weight: 500;
+}
+@font-face {
+   font-family: "Noto";
+   src: url(../font/noto/NotoSansCJKkr-Bold.otf);
+   font-weight: 700;
+}
+@font-face {
+   font-family: "Noto";
+   src: url(../font/noto/NotoSansCJKkr-900.otf);
+   font-weight: 900;
+}
+*{font-family: "Noto"; font-weight: 500;}
+a{text-decoration: none;}
+img{width: 100%; height: 100%; object-fit: cover;}
+.none{display: none;}
+.flex{display: flex;}
+.grid{display: grid;}
+section{padding-top: 5rem;}
+.container{width: 1440px; margin: 0 auto;}
+header{width: 100%; position: fixed; top: 0; left: 0; z-index: 100;}
+header .menuBtn{font-size: 1.4rem; background: #000; width: 40px; height: 40px; text-align: center; line-height: 40px; border-radius: 50%; color: #999;}
+header nav{height: 100px; align-items: center; justify-content: space-between;}
+header nav .menu{ gap: 1.2rem;}
+header .logo{width: 200px; height: 80px;}
+
+#slide{width: 100%; overflow: hidden;}
+#slide .text_box{width: 1400px; margin: 0 auto; justify-content: flex-end; padding-top: 7rem; padding-bottom: 2rem;}
+video{min-width: 34%; height: 70vh;  object-fit: cover;}
+
+#gen .gen{height: 100px; align-items: center; justify-content: space-between;}
+#gen .gen .left{flex-direction: column; gap: .4rem;}
+
+#gen .gen_slide {gap: 4.5rem; overflow: hidden;}
+#gen .gen_slide .item{flex-direction: column; gap: .4rem;}
+#gen .gen_slide .item .text_box{ justify-content: space-between;}
+#gen .gen_slide .item .text_box .little{color: #999 ;}
+#gen .gen_slide .item .img_box{width: 650px;}

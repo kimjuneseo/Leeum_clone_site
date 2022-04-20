@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!--=============== SWIPER CSS ===============-->
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
@@ -99,7 +99,7 @@
     </section>
     <section id="so">
         <div class="container">
-            <h3 class="title">소장품</h3>
+            <h2 class="title">소장품</h2>
             <div class="so_content grid">
                 <div class="item flex">
                     <p>고미술 소장품</p>
@@ -112,54 +112,59 @@
             </div>
         </div>
     </section>
-    <section id="gen">
+    <section id="pro">
         <div class="container">
-            <div class="gen flex">
-                <h3>프로그램</h3>
+            <div class="pro grid">
+                <h2 class="title">프로그램</h2>
                 <div class="left">
                     <p>보다 깉이 있는 미술관 경험을 위한 다양한 프로그램을 소개합니다.</p>
                     <a href="#">더 보기 <i class="fa fa-solid fa-arrow-right"></i></a>
                 </div>
             </div>
-            <div class="gen_slide flex">
-                <div class="item">
-                    <div class="img_box"><img src="./img/pro1.jpg" alt="pro1"></div>
-                    <div class="text_box flex">
-                        <p>
-                            <아트스펙트럼2022>전시 연계 프로그램
-                        </p>
-                        <p>2022년 3월 2일 - 7월 3일</p>
+            <div class="slide swiper mySwiper2">
+                <div class="pro_slide swiper-wrapper flex">
+                    <div class="item swiper-slide ">
+                        <div class="img_box"><img src="./img/pro1.jpg" alt="pro1"></div>
+                        <div class="text_box flex">
+                            <p>
+                                <아트스펙트럼2022>전시 연계 프로그램
+                            </p>
+                            <p>2022년 3월 2일 - 7월 3일</p>
+                        </div>
                     </div>
-                </div>
-                <div class="item">
-                    <div class="img_box"><img src="./img/pro2.jpg" alt="pro2"></div>
-                    <div class="text_box flex">
-                        <p>[북 · 키 · 움 - 인공지능]4월 키즈랩 어린이 그림책 <br>프로그램</p>
-                        <p>2022년 4월 2일~4월 23dlf 매주 토요일</p>
+                    <div class="item swiper-slide ">
+                        <div class="img_box"><img src="./img/pro2.jpg" alt="pro2"></div>
+                        <div class="text_box flex">
+                            <p>[북 · 키 · 움 - 인공지능]4월 키즈랩 어린이 그림책 <br>프로그램</p>
+                            <p>2022년 4월 2일~4월 23dlf 매주 토요일</p>
+                        </div>
                     </div>
-                </div>
-                <div class="item">
-                    <div class="img_box"><img src="./img/pro3.jpg" alt="pro3"></div>
-                    <div class="text_box flex">
-                        <p>[마감] 멤버십 초청 음악회</p>
-                        <p>2022-04-04~2022-04-24</p>
+                    <div class="item swiper-slide ">
+                        <div class="img_box"><img src="./img/pro3.jpg" alt="pro3"></div>
+                        <div class="text_box flex">
+                            <p>[마감] 멤버십 초청 음악회</p>
+                            <p>2022-04-04~2022-04-24</p>
+                        </div>
                     </div>
-                </div>
-                <div class="item">
-                    <div class="img_box"><img src="./img/pro4.jpg" alt="pro4"></div>
-                    <div class="text_box flex">
-                        <p>[온라인 프로그램] 리움 크리에이티브 - 행성탐험대</p>
-                        <p>상시</p>
+                    <div class="item swiper-slide">
+                        <div class="img_box"><img src="./img/pro4.jpg" alt="pro4"></div>
+                        <div class="text_box flex">
+                            <p>[온라인 프로그램] 리움 크리에이티브 - 행성탐험대</p>
+                            <p>상시</p>
+                        </div>
                     </div>
-                </div>
-                <div class="item">
-                    <div class="img_box"><img src="./img/pro5.jpg" alt="pro5"></div>
-                    <div class="text_box flex">
-                        <p>이안 쳉<세계건설> 전시 연계 프로그램</p>
-                        <p>2022년 3월 2일 - 7월 3일</p>
+                    <div class="item swiper-slide">
+                        <div class="img_box"><img src="./img/pro5.jpg" alt="pro5"></div>
+                        <div class="text_box flex">
+                            <p>이안 쳉<세계건설> 전시 연계 프로그램</p>
+                            <p>2022년 3월 2일 - 7월 3일</p>
+                        </div>
                     </div>
                 </div>
             </div>
+            <i class="prev2 fa fa-solid fa-arrow-left"></i>
+            <i class="next2 fa fa-solid fa-arrow-right"></i>
+            <div class="swiper-pagination2"></div>
         </div>
     </section>
     <section id="two_section">
@@ -312,7 +317,9 @@
             slidesPerGroup: 1,
             loop: true,
             loopFillGroupWithBlank: true,
-            autoplay: { delay: 2000, },
+            autoplay: {
+                delay: 2000,
+            },
             pagination: {
                 el: ".swiper-pagination",
                 clickable: true
@@ -320,6 +327,26 @@
             navigation: {
                 nextEl: ".next1",
                 prevEl: ".prev1"
+            },
+
+        });
+
+        let swiper2 = new Swiper(".mySwiper2", {
+            slidesPerView: 2,
+            spaceBetween: 30,
+            slidesPerGroup: 1,
+            loop: true,
+            loopFillGroupWithBlank: true,
+            autoplay: {
+                delay: 2000,
+            },
+            pagination: {
+                el: ".swiper-pagination2",
+                clickable: true
+            },
+            navigation: {
+                nextEl: ".next2",
+                prevEl: ".prev2"
             },
 
         });

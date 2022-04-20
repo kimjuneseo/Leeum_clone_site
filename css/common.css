@@ -57,7 +57,17 @@ video{min-width: 34%; height: 70vh;  object-fit: cover;}
 #gen .gen_slide .item .text_box{ justify-content: space-between;}
 #gen .gen_slide .item .text_box .little{color: #999 ;}
 #gen .gen_slide .item .img_box{width: 682.5px;}
+ 
+.prev1,.prev2{position: absolute; padding: 10px; background: #999; border-radius: 50%; color: #fff; z-index: 1000;} 
+.next1,.next2{position: absolute; left: 85%; padding: 10px; background: #999; border-radius: 50%; color: #fff; z-index: 1000;} 
+.swiper-pagination{position: absolute; top: 161%; }
+.swiper-pagination2{ text-align: center;}
 
-.prev1{position: absolute; padding: 10px; background: #999; border-radius: 50%; color: #fff; z-index: 1000;}
-.next1{position: absolute; left: 85%; padding: 10px; background: #999; border-radius: 50%; color: #fff; z-index: 1000;}
-.swiper-pagination{position: sticky; top: 95%;}
+#so .so_content {padding-top: 3rem; gap: 2rem;}
+#so .so_content .item p{ width: 650px;}
+#so .so_content .item .img_box{width: 100%; height: 200px;}
+
+#pro .pro{height: 100px; align-items: center; grid-template-columns: repeat(2,682.5px); gap: 35px;}
+#pro .slide{width: 100%; overflow: hidden; }
+#pro .pro_slide{width: 500%; }
+#pro .pro_slide .item{width: 682.5px;}

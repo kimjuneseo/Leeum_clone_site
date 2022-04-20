@@ -35,7 +35,7 @@ img{width: 100%; height: 100%; object-fit: cover;}
 .none{display: none;}
 .flex{display: flex;}
 .grid{display: grid;}
-section{padding-top: 5rem;}
+section{padding-top: 6.5rem; background: #fff;}
 .container{width: 1400px; margin: 0 auto;}
 h2.title{font-size: 1.9rem;}
 header{width: 100%; position: fixed; top: 0; left: 0; z-index: 10000; background: #fff;}
@@ -60,7 +60,7 @@ video{min-width: 34%; height: 70vh;  object-fit: cover;}
  
 .prev1,.prev2{position: absolute; padding: 10px; background: #999; border-radius: 50%; color: #fff; z-index: 1000;} 
 .next1,.next2{position: absolute; left: 85%; padding: 10px; background: #999; border-radius: 50%; color: #fff; z-index: 1000;} 
-.swiper-pagination{position: absolute; top: 161%; }
+.swiper-pagination{position: relative;  padding-top: 1rem;}
 .swiper-pagination2{ text-align: center;}
 
 #so .so_content {padding-top: 3rem; gap: 2rem;}
@@ -80,7 +80,17 @@ video{min-width: 34%; height: 70vh;  object-fit: cover;}
 #two_section .container .item_R .list{padding-top: 1rem; border-bottom: 1px solid #999; color: #999;}
 #two_section .container .item_R .item{border-top: 1px solid #999; grid-template-columns: 5% 75% 25%; text-align: center; padding: 1rem 0rem;}
 
+#artist{padding-bottom: 7rem;}
 #artist .container .top{grid-template-columns: repeat(2,1fr); padding-bottom: 2.5rem;}
 #artist .container .top .item{gap: 1rem;}
-#artist .content{grid-template-columns: repeat(5, 250px);  gap: 2.5rem;}
+#artist .content{grid-template-columns: repeat(5, 250px);  gap: 2rem;}
 #artist .content .item .img_box{height: 190px;}
+
+.footer-box{width: 100%; height: 340px; }
+footer{position: fixed; width: 100%; height: 340px; padding: 3rem;bottom: 0; z-index: 1; background: #000; color: #999;  grid-template-columns: repeat(2, 1fr); z-index: -1;}
+footer .item_L{flex-direction: column; justify-content: space-between;}
+footer .item_R{flex-direction: column; justify-content: space-between;}
+footer .item_R .top{gap: 2rem;}
+footer .item_R .top .item{flex-direction: column;}
+footer .item_R .buttom{justify-content: space-between;}
+footer .item_R .buttom select{background: #000; padding: .5rem .5rem; width: 200px;}

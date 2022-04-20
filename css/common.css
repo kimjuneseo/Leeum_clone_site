@@ -58,6 +58,6 @@ video{min-width: 34%; height: 70vh;  object-fit: cover;}
 #gen .gen_slide .item .text_box .little{color: #999 ;}
 #gen .gen_slide .item .img_box{width: 682.5px;}
 
-.prev1{position: absolute; padding: 10px; background: #999; border-radius: 50%; color: #fff;}
-.next1{position: absolute; left: 85%; padding: 10px; background: #999; border-radius: 50%; color: #fff;}
+.prev1{position: absolute; padding: 10px; background: #999; border-radius: 50%; color: #fff; z-index: 1000;}
+.next1{position: absolute; left: 85%; padding: 10px; background: #999; border-radius: 50%; color: #fff; z-index: 1000;}
 .swiper-pagination{position: sticky; top: 95%;}

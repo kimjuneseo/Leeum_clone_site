@@ -100,7 +100,7 @@ footer .item_R .buttom select{background: #000; padding: .5rem .5rem; width: 200
 
 @keyframes op {
    from{opacity: 0;}
-   to{opacity: 1;}
+   to{opacity: 1;} 
 }
 
 .op{animation: op 2s both linear;}

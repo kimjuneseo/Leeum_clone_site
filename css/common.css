@@ -88,7 +88,7 @@ footer .item_R .buttom select{background: #000; padding: .5rem .5rem; width: 200
 #sub1 .r_item .title{padding: 0rem 0rem 1rem 1rem;}
 #sub1 .r_item .smaText{padding-bottom: 2rem;}
 #sub1 .text_box{padding: 3rem 0rem;}
-#sub1 .img_content{grid-template-columns: repeat(2,1fr); gap: 3rem; padding-bottom: 15rem;}
+#sub1 .img_content{grid-template-columns: repeat(2,1fr); gap: 3rem; padding-bottom: 13rem;}
 #sub1 .img_content .img_box{height: 400px;}
 #sub1 .c_text_box{gap: 3rem; padding: .2rem 0rem;}
 .img_box{position: relative;}

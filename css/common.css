@@ -15,8 +15,12 @@ img{width: 100%; height: 100%; object-fit: cover;}
 .grid{display: grid;}
 .mainWrap{background:#fff;}
 section{padding-top: 6.5rem; background: #fff; }
-header{}
 .container{width: 1400px; margin: 0 auto;}
+
+.menu .item:hover .sub_menu div{height: 30px; transition: .4s; background: rgba(194, 194, 194, 0.479);}
+.sub_menu{position: absolute;}
+.sub_menu div{height: 0; overflow: hidden; transition: .4s;} 
+.sub_menu div:hover{color: #999; transition: .4s;}
 h2.title{font-size: 1.9rem;}
 header{width: 100%; position: fixed; top: 0; left: 0; z-index: 10000; background: #fff; }
 header .menuBtn{font-size: 1.4rem; background: #000; width: 40px; height: 40px; text-align: center; line-height: 40px; border-radius: 50%; color: #999;}
